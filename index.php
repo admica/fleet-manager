@@ -1,10 +1,16 @@
 <?php
+// This section sets up some basic configurations that are missing in the original.
+// this section should be moved into a separate config file that will be included later.
+// Edit the following lines for your setup.
+
+$websiteRoot = "http://www.affirmativealliance.com/fleet-manager/"; //URL where this is accessed
+$myFile = "/home3/ldifiore/tmp/siteVisits_fm.txt"; //temp directory
+
 	// Figuring out if user is in game, he trusts the website, and his pilotname
 $debug = false;
-$websiteRoot = "http://www.agony-unleashed.com/fleet-manager/";
 
 // log user info
-$myFile = "/home/agony/tmp/siteVisits_fm.txt";
+
 if (!file_exists($myFile)) {
 	`touch $myFile`;
 }
