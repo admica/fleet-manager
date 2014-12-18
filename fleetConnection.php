@@ -11,6 +11,7 @@ $db_server = 'localhost';          //almost always localhost
 $db_name = 'your database name';     //name of the database
 $db_user = 'your database user name';       //database username
 $db_password = 'your database user password';     //database password for this username
+$authorizedCorpID = 'your corpID number' //your corp's ID number in Eve.
 
 
 $db = mysql_connect($db_server, $db_user, $db_password) or
@@ -78,7 +79,7 @@ function getList() {
 			} else {
 				$rec["joined"] = false;
 			}
-			if($rec["isPublic"] || $corpId == 793028819 || $num_rows > 0) {
+			if($rec["isPublic"] || $corpId == $authorizedCorpID || $num_rows > 0) {
 				$arr[] = $rec;
 				$viewableFleets++;
 			}
@@ -138,7 +139,7 @@ function createFleet() {
 	$about = checkSlashes($_POST['about']);
 	$now = gmdate('Y-m-d H:i:s');
 	// update Fleets table
-	if($corpId == 793028819) {
+	if($corpId == $authorizedCorpID) {
 		$query = "INSERT INTO fleets(fleetOwner, createdOn, about, memberCount, isPublic) VALUES ('$fleetOwner', '$now', \"$about\", 1, 0)";
 		$result = mysql_query($query);
 		$id=mysql_insert_id();
@@ -219,7 +220,7 @@ function updatePublic() {
 	$id = checkSlashes($_POST['id']);
 	$public = checkSlashes($_POST['isPublic']);
 	$corpId = checkSlashes($_POST['hoesAmount']);
-	if($corpId == 793028819) {
+	if($corpId == $authorizedCorpID) {
 		$query = "UPDATE fleets SET isPublic = $public WHERE id = $id";
 		$result = mysql_query($query);
 		mysql_close();
@@ -240,7 +241,7 @@ function updateInfo() {
 	$fleetXO = getFleetXO($id);
 	$fleetOwner = checkSlashes($fleetOwner);
 	$fleetXO = checkSlashes($fleetXO);
-	if(($userName == $fleetOwner || $userName == $fleetXO) && $corpId == 793028819) {
+	if(($userName == $fleetOwner || $userName == $fleetXO) && $corpId == $authorizedCorpID) {
 		$query = "UPDATE fleets SET about = '$about', description = '$description' WHERE id = $id";
 		$result = mysql_query($query);
 		mysql_close();
