@@ -4,9 +4,19 @@
 ////////////////////////////////////////////////////////
 ini_set('display_errors', 1); 
 error_reporting(E_ALL);
-$db = mysql_connect("127.0.0.1", "DB_USER", "DB_PASSWORD") or
+
+// Change the following four lines to match your database setup.
+
+$db_server = 'localhost';          //almost always localhost
+$db_name = 'ldifiore_fleetmanager';     //name of the database
+$db_user = 'ldifiore_fleet';       //database username
+$db_password = 'Dh=C2S[0Ne;z';     //database password for this username
+
+
+$db = mysql_connect($db_server, $db_user, $db_password) or
 	die("Could not connect");
-@mysql_select_db("agony_fm") or die( "Unable to select database");
+
+@mysql_select_db($db_name) or die( "Unable to select database");
 $task = '';
 define('ADMIN_USERS', 'adminUser1;adminUser2'); // feel free to add more. Will prolly make a DB for this earlier instead of a dumb array
 
