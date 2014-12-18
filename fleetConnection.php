@@ -8,9 +8,9 @@ error_reporting(E_ALL);
 // Change the following four lines to match your database setup.
 
 $db_server = 'localhost';          //almost always localhost
-$db_name = 'ldifiore_fleetmanager';     //name of the database
-$db_user = 'ldifiore_fleet';       //database username
-$db_password = 'Dh=C2S[0Ne;z';     //database password for this username
+$db_name = 'your database name';     //name of the database
+$db_user = 'your database user name';       //database username
+$db_password = 'your database user password';     //database password for this username
 
 
 $db = mysql_connect($db_server, $db_user, $db_password) or
