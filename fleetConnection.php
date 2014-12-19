@@ -5,21 +5,15 @@
 ini_set('display_errors', 1); 
 error_reporting(E_ALL);
 
-// Change the following four lines to match your database setup.
-
-$db_server = 'localhost';          //almost always localhost
-$db_name = 'your database name';     //name of the database
-$db_user = 'your database user name';       //database username
-$db_password = 'your database user password';     //database password for this username
-$authorizedCorpID = 'your corpID number' //your corp's ID number in Eve.
-
+// Load the settings...
+require_once(dirname(__FILE__) . '/config.php');
 
 $db = mysql_connect($db_server, $db_user, $db_password) or
 	die("Could not connect");
 
 @mysql_select_db($db_name) or die( "Unable to select database");
 $task = '';
-define('ADMIN_USERS', 'adminUser1;adminUser2'); // feel free to add more. Will prolly make a DB for this earlier instead of a dumb array
+define('ADMIN_USERS', 'Affirmatively;adminUser2'); // feel free to add more. Will prolly make a DB for this earlier instead of a dumb array
 
 if ( isset($_POST['task'])){
 	$task = $_POST['task'];   // Get this from Ext
@@ -66,6 +60,7 @@ function getList() {
 	$result = mysql_query($query);
 	$nbrows = mysql_num_rows($result);
 	$viewableFleets = 0;
+
 	if($nbrows>0){
 		while($rec = mysql_fetch_array($result, MYSQL_ASSOC)){
 			// check to see if pilot is in the fleet
@@ -79,9 +74,10 @@ function getList() {
 			} else {
 				$rec["joined"] = false;
 			}
-			if($rec["isPublic"] || $corpId == $authorizedCorpID || $num_rows > 0) {
+			if($rec["isPublic"] || $corpId == AUTHCORPID || $num_rows > 0) {
 				$arr[] = $rec;
 				$viewableFleets++;
+
 			}
 		}
 		$jsonresult = '';
@@ -139,7 +135,7 @@ function createFleet() {
 	$about = checkSlashes($_POST['about']);
 	$now = gmdate('Y-m-d H:i:s');
 	// update Fleets table
-	if($corpId == $authorizedCorpID) {
+	if($corpId == AUTHCORPID) {
 		$query = "INSERT INTO fleets(fleetOwner, createdOn, about, memberCount, isPublic) VALUES ('$fleetOwner', '$now', \"$about\", 1, 0)";
 		$result = mysql_query($query);
 		$id=mysql_insert_id();
@@ -220,7 +216,7 @@ function updatePublic() {
 	$id = checkSlashes($_POST['id']);
 	$public = checkSlashes($_POST['isPublic']);
 	$corpId = checkSlashes($_POST['hoesAmount']);
-	if($corpId == $authorizedCorpID) {
+	if($corpId == AUTHCORPID) {
 		$query = "UPDATE fleets SET isPublic = $public WHERE id = $id";
 		$result = mysql_query($query);
 		mysql_close();
@@ -241,7 +237,8 @@ function updateInfo() {
 	$fleetXO = getFleetXO($id);
 	$fleetOwner = checkSlashes($fleetOwner);
 	$fleetXO = checkSlashes($fleetXO);
-	if(($userName == $fleetOwner || $userName == $fleetXO) && $corpId == $authorizedCorpID) {
+
+	if(($userName == $fleetOwner || $userName == $fleetXO) && $corpId == AUTHCORPID) {
 		$query = "UPDATE fleets SET about = '$about', description = '$description' WHERE id = $id";
 		$result = mysql_query($query);
 		mysql_close();

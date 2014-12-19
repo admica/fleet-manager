@@ -1,12 +1,9 @@
 <?php
-// This section sets up some basic configurations that are missing in the original.
-// this section should be moved into a separate config file that will be included later.
-// Edit the following lines for your setup.
 
-$websiteRoot = "http://www.affirmativealliance.com/fleet-manager/"; //URL where this is accessed
-$myFile = "/home3/ldifiore/tmp/siteVisits_fm.txt"; //temp directory
+// Load the settings...
+require_once(dirname(__FILE__) . '/config.php');
 
-	// Figuring out if user is in game, he trusts the website, and his pilotname
+// Figuring out if user is in game, he trusts the website, and his pilotname
 $debug = false;
 
 // log user info
@@ -109,7 +106,7 @@ print "    <script type=\"text/javascript\"> var pilotName = '$jsSafePilotName';
 		var getTrust = function(website) {
 			var trustMe = CCPEVE.requestTrust(website);			
 		};
-		var instructionPrompt = '1. Open Fitting<br>2. Drag the name of your ship into chat<br>3. Right click on it, and select "Open Link In New Tab"<br>4. A new tab will open in In-Game-Browser. Copy it\'s address and paste here:';
+		var instructionPrompt = '1. Open Fitting Window.<br>2. Find the name of your ship at the upper right corner.<br>3. Click-and-drag the name of your ship into chat, and press ENTER.<br>4. Right click on your linked fitting in chat, and select "Copy."<br>5. Right-click, paste into the join fleet input fitting pop-up.';
     </script>
 <?php
     

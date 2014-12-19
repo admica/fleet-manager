@@ -4,9 +4,13 @@
 ////////////////////////////////////////////////////////
 ini_set('display_errors', 1); 
 error_reporting(E_ALL);
-$db = mysql_connect("127.0.0.1", "agony_fm", "0ec87766") or
+
+// Load the settings...
+require_once(dirname(__FILE__) . '/config.php');
+
+$db = mysql_connect($db_server, $db_user, $db_password) or
 	die("Could not connect");
-@mysql_select_db("agony_fm") or die( "Unable to select database");
+@mysql_select_db($db_name) or die( "Unable to select database");
 $task = '';
 if ( isset($_POST['task'])){
 	$task = $_POST['task'];   // Get this from Ext
@@ -190,7 +194,7 @@ function removePilot() {
 	$fleetXO = getFleetXO($fleetId);
 	$fleetOwner = checkSlashes($fleetOwner);
 	$fleetXO = checkSlashes($fleetXO);
-	if($corpId == 793028819 || strncmp($deletedPilot, $userName, 100) == 0 || $fleetXO == $userName) {
+	if($corpId == AUTHCORPID || strncmp($deletedPilot, $userName, 100) == 0 || $fleetXO == $userName) {
 		if($fleetOwner == $deletedPilot) {
 			mysql_close();
 			echo '0';

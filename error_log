@@ -1,0 +1,223 @@
+[18-Dec-2014 10:03:12 America/Chicago] PHP Warning:  fopen(/home/agony/tmp/siteVisits_fm.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/index.php on line 13
+[18-Dec-2014 10:36:09 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'DB_USER'@'localhost' (using password: YES) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 7
+[18-Dec-2014 10:36:16 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'DB_USER'@'localhost' (using password: YES) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 7
+[18-Dec-2014 10:36:17 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'DB_USER'@'localhost' (using password: YES) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 7
+[18-Dec-2014 11:17:33 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'DB_USER'@'localhost' (using password: YES) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 7
+[18-Dec-2014 11:50:27 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 17
+[18-Dec-2014 11:50:35 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 17
+[18-Dec-2014 11:50:35 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 17
+[18-Dec-2014 11:53:55 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 17
+[18-Dec-2014 11:54:00 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 17
+[18-Dec-2014 11:54:01 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 17
+[18-Dec-2014 11:54:20 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 17
+[18-Dec-2014 11:54:21 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 17
+[18-Dec-2014 11:55:01 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 17
+[18-Dec-2014 11:55:07 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 17
+[18-Dec-2014 11:55:08 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 17
+[18-Dec-2014 11:55:40 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 17
+[18-Dec-2014 11:55:40 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 17
+[18-Dec-2014 11:55:48 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 17
+[18-Dec-2014 19:45:32 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'agony_fm'@'localhost' (using password: YES) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 7
+[18-Dec-2014 19:48:37 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'agony_fm'@'localhost' (using password: YES) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 7
+[18-Dec-2014 19:50:50 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'agony_fm'@'localhost' (using password: YES) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 7
+[18-Dec-2014 19:50:51 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'agony_fm'@'localhost' (using password: YES) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 7
+[18-Dec-2014 19:50:56 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'agony_fm'@'localhost' (using password: YES) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 7
+[18-Dec-2014 19:51:04 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'agony_fm'@'localhost' (using password: YES) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 7
+[18-Dec-2014 19:52:01 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'agony_fm'@'localhost' (using password: YES) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 7
+[18-Dec-2014 19:52:02 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'agony_fm'@'localhost' (using password: YES) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 7
+[18-Dec-2014 19:52:19 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'agony_fm'@'localhost' (using password: YES) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 7
+[18-Dec-2014 19:52:20 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'agony_fm'@'localhost' (using password: YES) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 7
+[18-Dec-2014 20:00:04 America/Chicago] PHP Notice:  Undefined variable: db_server in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:04 America/Chicago] PHP Notice:  Undefined variable: db_user in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:04 America/Chicago] PHP Notice:  Undefined variable: db_password in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:04 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'ldifiore'@'localhost' (using password: NO) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:14 America/Chicago] PHP Notice:  Undefined variable: db_server in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:14 America/Chicago] PHP Notice:  Undefined variable: db_user in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:14 America/Chicago] PHP Notice:  Undefined variable: db_password in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:14 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'ldifiore'@'localhost' (using password: NO) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:15 America/Chicago] PHP Notice:  Undefined variable: db_server in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:15 America/Chicago] PHP Notice:  Undefined variable: db_user in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:15 America/Chicago] PHP Notice:  Undefined variable: db_password in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:15 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'ldifiore'@'localhost' (using password: NO) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:21 America/Chicago] PHP Notice:  Undefined variable: db_server in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:21 America/Chicago] PHP Notice:  Undefined variable: db_user in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:21 America/Chicago] PHP Notice:  Undefined variable: db_password in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:21 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'ldifiore'@'localhost' (using password: NO) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:27 America/Chicago] PHP Notice:  Undefined variable: db_server in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:27 America/Chicago] PHP Notice:  Undefined variable: db_user in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:27 America/Chicago] PHP Notice:  Undefined variable: db_password in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:00:27 America/Chicago] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'ldifiore'@'localhost' (using password: NO) in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetFittings.php on line 10
+[18-Dec-2014 20:39:10 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:15 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 136
+[18-Dec-2014 20:39:16 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:19 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:25 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:25 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:27 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:27 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:27 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:33 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:41 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:42 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:42 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:43 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:44 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:44 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:44 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:49 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 136
+[18-Dec-2014 20:39:49 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:50 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:51 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:51 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:52 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:53 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:53 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:39:53 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:40:06 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 136
+[18-Dec-2014 20:40:07 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:40:10 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:40:13 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:40:14 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:40:17 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:40:28 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 136
+[18-Dec-2014 20:40:28 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:40:33 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:40:37 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 136
+[18-Dec-2014 20:40:37 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:40:42 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 136
+[18-Dec-2014 20:40:42 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:40:44 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:40:44 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:40:45 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:40:45 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:41:23 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:44:34 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:44:53 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:44:57 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:44:57 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:44:58 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:44:58 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:44:59 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:44:59 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:00 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:00 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:00 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:00 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:00 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:00 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:01 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:01 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:01 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:01 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:02 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:02 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:03 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:03 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:05 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:05 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:06 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:06 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:07 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:07 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:08 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:08 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:08 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:08 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:09 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:09 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:16 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:16 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:17 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:17 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:21 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:21 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:26 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[18-Dec-2014 20:45:26 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 76
+[19-Dec-2014 00:36:24 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 00:37:06 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 00:40:56 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 00:42:21 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 00:48:49 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 00:52:29 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 00:54:10 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 00:55:48 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 00:57:47 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 00:57:57 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 00:58:18 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 01:01:41 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 01:01:48 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 01:03:45 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 01:04:43 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 01:06:42 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 01:07:05 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 01:07:34 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 01:11:59 America/Chicago] PHP Notice:  Undefined variable: corpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 65
+[19-Dec-2014 01:11:59 America/Chicago] PHP Notice:  Undefined variable: corpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 66
+[19-Dec-2014 01:14:33 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 78
+[19-Dec-2014 01:16:24 America/Chicago] PHP Notice:  Undefined variable: corpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 81
+[19-Dec-2014 01:16:24 America/Chicago] PHP Notice:  Undefined variable: corpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 82
+[19-Dec-2014 01:16:24 America/Chicago] PHP Notice:  Undefined variable: corpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 81
+[19-Dec-2014 01:16:24 America/Chicago] PHP Notice:  Undefined variable: corpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 82
+[19-Dec-2014 01:16:24 America/Chicago] PHP Notice:  Undefined variable: corpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 81
+[19-Dec-2014 01:16:24 America/Chicago] PHP Notice:  Undefined variable: corpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 82
+[19-Dec-2014 01:16:24 America/Chicago] PHP Notice:  Undefined variable: corpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 81
+[19-Dec-2014 01:16:24 America/Chicago] PHP Notice:  Undefined variable: corpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 82
+[19-Dec-2014 01:16:24 America/Chicago] PHP Notice:  Undefined variable: corpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 81
+[19-Dec-2014 01:16:24 America/Chicago] PHP Notice:  Undefined variable: corpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 82
+[19-Dec-2014 01:16:24 America/Chicago] PHP Notice:  Undefined variable: corpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 81
+[19-Dec-2014 01:16:24 America/Chicago] PHP Notice:  Undefined variable: corpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 82
+[19-Dec-2014 01:16:24 America/Chicago] PHP Notice:  Undefined variable: corpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 81
+[19-Dec-2014 01:16:24 America/Chicago] PHP Notice:  Undefined variable: corpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 82
+[19-Dec-2014 01:17:00 America/Chicago] PHP Notice:  Undefined variable: corpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 94
+[19-Dec-2014 01:17:00 America/Chicago] PHP Notice:  Undefined variable: corpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 95
+[19-Dec-2014 01:19:37 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 78
+[19-Dec-2014 01:19:53 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 78
+[19-Dec-2014 01:49:17 America/Chicago] PHP Parse error:  syntax error, unexpected '[' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/config.php on line 19
+[19-Dec-2014 01:49:31 America/Chicago] PHP Parse error:  syntax error, unexpected '[' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/config.php on line 19
+[19-Dec-2014 01:50:48 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/config.php on line 20
+[19-Dec-2014 01:54:56 America/Chicago] PHP Notice:  Undefined variable: authorizedCorpID in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/config.php on line 20
+[19-Dec-2014 02:13:14 America/Chicago] PHP Notice:  Use of undefined constant AUTHCORPID - assumed 'AUTHCORPID' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 02:13:30 America/Chicago] PHP Notice:  Use of undefined constant AUTHCORPID - assumed 'AUTHCORPID' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 02:14:42 America/Chicago] PHP Notice:  Use of undefined constant AUTHCORPID - assumed 'AUTHCORPID' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 77
+[19-Dec-2014 02:36:15 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:36:27 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:36:27 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:36:29 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:36:32 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:36:32 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:36:33 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:36:33 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:36:33 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:36:38 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:36:42 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:36:43 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:36:49 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:36:49 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:36:53 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:36:57 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:37:01 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:37:02 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:37:02 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:37:03 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:37:04 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:37:04 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:37:04 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:37:04 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:37:05 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:37:05 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:37:05 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:37:05 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:37:05 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:37:10 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:37:11 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:37:53 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:37:58 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:37:58 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:38:01 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:38:35 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:39:43 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:39:47 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:40:13 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:40:17 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:42:00 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
+[19-Dec-2014 02:45:55 America/Chicago] PHP Parse error:  syntax error, unexpected '`' in /home3/ldifiore/public_html/affirmativealliance.com/fleet-manager/fleetConnection.php on line 55
