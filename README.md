@@ -3,38 +3,31 @@ fleet-manager
 
 Eve Online fleet manager
 
-This is a fork of Agony Unleashed's NEO Fleet Manager program.  This fork is managed by Affirmative (an Eve Online alliance).
+This is a fork of Agony Unleashed's NEO Fleet Manager program.  
 
-This fork intends to do the following:
+This fork is managed by Affirmative's Redemption Road, who are actively updating and redeveloping it for use within the NPSI community as a free service.
+
+TODO's:
 
 1. Update all css files to Bootstrap or similar modern css framework.
-
 2. Rid the Fleet Manager of its reliance on the extJS library (which has a convulated license structure, is using an ancient version, and kind of a pain to work with).
-
-3. Create a proper "config" file for individual installation settings to be placed.
-
-4. Create a proper "install" script (maybe).
-
-5. Create some sort of admin front end.
-
-6. Add columns for cyno's and sebo's.
+3. Create a proper "install" script (maybe).
+4. Create some sort of admin front end.
+5. Add columns for cyno's and sebo's.
+6. Change it so you can limit usage by corp and/or alliance, have multiple corps authorized to use it, or even possibly set it to public.
+7. Crapton of updating of items database.
+8. Add estimated DPS calculation (base DPS? all 5's DPS? something in between?)
+9. Currently any limitation based on corp and/or alliance IDs is seriously lame, because it's easy to spoof the IGB browsers.  Ultimately would be best to provide some sort of easy way of linking it into an existing auth system (such as TEA, forums, SSO, whatever).  May or may not address this issue, just not a big issue for us at this point.
 
 ============
 INSTALLATION
 ============
 
-1. Download a zip file from here and upload and unzip it on your server.
-
-2. Go into the "index.php" file and at the top, there are a few configuration settings to change (eventually will be moved to a proper config file).
-
+1. Download a zip file from here and upload and unzip it on your server (or fork it)
+2. Edit config.php with your server and database settings, plus your corpID number.
 3. Using phpMyAdmin or similar program, create a MySQL database on your server.  (You can, if you prefer, just use an existing database).
-
 4. In phpMyAdmin or similar program, use the enclosed "fleetmanager.sql" file to create the needed tables.
-
-5. In phpMyAdmin or similar program, use the enclosed "items.sql' file to upload all relevant Eve inventory items/modules to the database.  Big file, this can take a while.
-
-6. In fleetConnection.php file, edit your database information at the top of the file.
-
-7. In that same file, a few lines down, change the "adminUser1" and "adminUser2" to in-game character names who have admin rights for the Fleet Manager.
-
+5. In phpMyAdmin or similar program, use the enclosed "items.sql' file to upload all relevant Eve inventory items/modules to the database.  Big file, this can take a while.  Note it's horribly out of date (by like 4 years).
+6. Using IGB, go to the Fleet Manager and add a fleet!
+ 
 
