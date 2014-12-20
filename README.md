@@ -7,6 +7,7 @@ This is a fork of Agony Unleashed's NEO Fleet Manager program.
 
 This fork is managed by Affirmative's Redemption Road, who are actively updating and redeveloping it for use within the NPSI community as a free service.
 
+
 TODO's:
 
 1. Update all css files to Bootstrap or similar modern css framework.
@@ -32,7 +33,8 @@ INSTALLATION
 6. Using IGB, go to the Fleet Manager and add a fleet!
  
 
-To-do's Completed:
+VERSION HISTORY
 
+Initial fork created and updates begun.  Let's call this "Beta RC1".
 1. Moved all hard-coded variables to a config.php file (specifically removed all the hard-coded corpIDs and database connection info).
 2. Found and added a bunch of missing images that extJS needs.
