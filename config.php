@@ -11,9 +11,9 @@ $myFile = "/home3/ldifiore/tmp/siteVisits_fm.txt"; //temp directory
 // Database settings
 
 $db_server = 'localhost';          //almost always localhost
-$db_name = 'ldifiore_fleetmanager';     //name of the database
-$db_user = 'ldifiore_fleet';       //database username
-$db_password = 'Dh=C2S[0Ne;z';     //database password for this username
+$db_name = 'name of your database';     //name of the database
+$db_user = 'username';       //database username
+$db_password = 'password';     //database password for this username
 
 // Authorized user settings
 define('AUTHCORPID', 98295916);    //corpID number of authorized corp
