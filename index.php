@@ -1,30 +1,24 @@
 <?php
-
 // Load the settings...
-require_once(dirname(__FILE__) . '/config.php');
+if (file_exists('config.php')) require 'config.php';
+else echo 'Config missing';
 
 // Figuring out if user is in game, he trusts the website, and his pilotname
-$debug = false;
-
 // log user info
-
 if (!file_exists($myFile)) {
 	`touch $myFile`;
 }
-
 $cannotOpenTextFile = 0;
 $fh = fopen($myFile, 'a') or $cannotOpenTextFile = 1;
 if($cannotOpenTextFile == 0) {
-	
-	$stringData = date("Y-M-j G:i:s T")." IP:".$_SERVER['REMOTE_ADDR']."  Browser:".$_SERVER['HTTP_USER_AGENT']."\n";
+	$stringData = date("Y-m-d_G:i_s T")." IP:".$_SERVER['REMOTE_ADDR']."  Browser:".$_SERVER['HTTP_USER_AGENT']."\n";
 	fwrite($fh, $stringData);
 	fclose($fh);
 }
 
 $browser = $_SERVER['HTTP_USER_AGENT'];
 // temp pilotname
-$pilotname = "NON-IGB-".rand(0,999);
-//$pilotname = "NeoFriend";
+$pilotname = "Snowflake_".rand(0,9999);
 $corpId = "0";
 $ingame = false;
 $trusted = false;
@@ -40,7 +34,7 @@ if(stristr($browser, 'EVE-IGB')) {
 	}
 }
 
-if($debug) {
+if($debug == 'true') {
 	foreach($_SERVER as $h=>$v)
 		if(ereg('HTTP_(.+)',$h,$hp))
 			print "$h : $v<br>";
@@ -55,7 +49,7 @@ if($debug) {
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Neo's Fleet Manager Tool</title>
+    <title>admica's Fleet Manager</title>
 
     <!-- ** CSS ** -->
     <!-- base library -->
@@ -130,9 +124,7 @@ if($ingame) {
 }
 
 ?>
-
 </head>
-
 <?php
 	// print body to get trust
 if($trusted || !$ingame) {
@@ -144,9 +136,8 @@ if($trusted || !$ingame) {
 if(!$trusted && $ingame) {
 	print "<h1><span style='color: #ff0000;'> >>> REFRESH THIS PAGE AFTER YOU GRANT TRUST <<<<</span><br></h1>\n";
 } elseif(!$ingame) {
-	print "<h1><span style='color: #ff0000;'> THIS WEBSITE DOESNT WORK CORRECTLY WHEN NOT USING EVE BROWSER.<br>This is why you don't have any permissions and your name was randomly generated.<br> Your name is: $pilotname</span><br></h1>";
+	print "<h1><span style='color: #ff0000;'> FOOL! USE THE INGAME BROWSER!<br>You don't have any permissions and your name was randomly generated.<br> Your name is: $pilotname</span><br></h1>";
 }
-
 ?>
     <div id="neoDiv"></div>
 </body>
