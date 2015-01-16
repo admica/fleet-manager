@@ -230,7 +230,7 @@ FleetCompositionGrid = Ext.extend(Ext.grid.EditorGridPanel, {
 							    success: function(response, opts) {
 								    if(response.responseText == "0") {
 									    Ext.Msg.alert('Error', 'Cannot delete this pilot.');
-								    } else if(response.responseText == "fagony") {
+								    } else if(response.responseText == "flag") {
 									    Ext.Msg.alert('Error', 'Say What???');
 								    }
 								    
@@ -500,7 +500,7 @@ FleetCompositionGrid = Ext.extend(Ext.grid.EditorGridPanel, {
 					    success: function(response, opts) {
 						    if(response.responseText == "0") {
 							    Ext.Msg.alert('Error', 'Error while updating this pilot');
-						    } else if(response.responseText == "fagony") {
+						    } else if(response.responseText == "flag") {
 							    Ext.Msg.alert('Error', 'Say What???');
 						    } else {						    
 								record.skipSubmit = true;

@@ -223,7 +223,7 @@ function updatePublic() {
 		echo '1';
 	} else {
 		mysql_close();
-		echo 'fagony';
+		echo 'flag';
 	}
 }
 

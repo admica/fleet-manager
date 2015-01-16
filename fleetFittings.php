@@ -217,7 +217,7 @@ function removePilot() {
 		}
 	} else {
 		mysql_close();
-		echo 'fagony';
+		echo 'flag';
 	}
 }
 

@@ -143,7 +143,7 @@ FleetsGrid = Ext.extend(Ext.grid.GridPanel, {
 				        Ext.Msg.alert('Error', 'Server Error: Failed Request. Try again or contact an administrator');
 				    },
 				    success: function(response, opts) {
-					    if(response.responseText == "fagony") {
+					    if(response.responseText == "flag") {
 						    Ext.Msg.alert('Error', 'You cannot do this...');
 					    }
 					    eto.fleetStore.reload();
