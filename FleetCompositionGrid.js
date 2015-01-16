@@ -231,7 +231,7 @@ FleetCompositionGrid = Ext.extend(Ext.grid.EditorGridPanel, {
 								    if(response.responseText == "0") {
 									    Ext.Msg.alert('Error', 'Cannot delete this pilot.');
 								    } else if(response.responseText == "fagony") {
-									    Ext.Msg.alert('Error', 'You must be in Agony.');
+									    Ext.Msg.alert('Error', 'Say What???');
 								    }
 								    
 								    eto.reloadStore(eto);
@@ -501,7 +501,7 @@ FleetCompositionGrid = Ext.extend(Ext.grid.EditorGridPanel, {
 						    if(response.responseText == "0") {
 							    Ext.Msg.alert('Error', 'Error while updating this pilot');
 						    } else if(response.responseText == "fagony") {
-							    Ext.Msg.alert('Error', 'You must be in Agony.');
+							    Ext.Msg.alert('Error', 'Say What???');
 						    } else {						    
 								record.skipSubmit = true;
 								record.commit();
